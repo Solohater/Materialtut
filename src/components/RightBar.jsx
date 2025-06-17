@@ -3,7 +3,7 @@ import React from 'react'
 
 const RightBar = () => {
   return (
-    <Box flex='2' sx={{display:{xs:'none', sm:'block'}}}>
+    <Box flex='2' p={2} sx={{display:{xs:'none', sm:'block'}}}>
       <Box position='fixed' width={300} mt={2} mb={2}>
         <Typography variant='h6' fontWeight={300}>Online Friends</Typography>
         <AvatarGroup max={7}>
